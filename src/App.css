@@ -1,0 +1,142 @@
+@import '~antd/dist/antd.css';
+html,
+body,
+.App {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(224, 219, 219);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* App.js */
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Header.js */
+
+.header-logo {
+    width: 100%;
+    height: 130px;
+}
+
+.menu-left,
+.menu-right,
+.shopping-cart {
+    position: absolute;
+}
+
+.menu-left,
+.menu-right {
+    top: 10px;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10pt;
+}
+
+.menu-left {
+    left: 11%;
+    width: 18%;
+}
+
+.menu-right {
+    right: 11%;
+    width: 20%;
+}
+
+.shopping-cart {
+    top: 10%;
+    right: 15%;
+    font-size: 30pt;
+}
+
+
+/* Product.js */
+
+.product-list {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    flex-basis: 23%;
+    margin-bottom: 3%;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.product-image:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.add-to-cart {
+    color: red;
+    font-size: 30pt;
+    float: right;
+    margin-top: -10px;
+}
+
+.filter-input {
+    width: 300px;
+    height: 30px;
+    margin-left: 5px;
+    border: none;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #b4b8bb;
+}
+
+.filter-input:focus,
+.filter-input:hover {
+    outline: none !important;
+    border: 1px solid rgb(132, 204, 204);
+    box-shadow: 0 0 5px #719ECE;
+}
+
+
+/* HR tag */
+
+hr {
+    border-top: 1px dotted black;
+}
+
+.Root>div {
+    border: 1px solid red;
+}
+
+.close {
+    width: 25px;
+}
+
+div>h3>button> {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
